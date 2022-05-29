@@ -6,7 +6,7 @@ import numpy as np
 
 def plot_map():
     gexons = pd.read_csv("C:/Users/maks/PycharmProjects/Alpha/final_table.csv")
-    df_isochrones = pd.read_csv(r"C:\Users\maks\Documents\Alpha_case\train\isochrones_walk_dataset.csv")
+    df_isochrones = pd.read_csv(r"C:/Users/maks/Documents/Alpha_case/train/isochrones_walk_dataset.csv")
     geo_data = df_isochrones.set_index('geo_h3_10').join(gexons.set_index('geo_h3_10'), how='right')[
         'walk_15min'].apply(
         lambda s: shapely.wkt.loads(s))
