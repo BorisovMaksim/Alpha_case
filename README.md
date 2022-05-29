@@ -6,6 +6,5 @@
 Дополняем размеченные данные информацией о хексогонах с нулевым количеством банкомтов, соблюдая сбалансированность классов. Вероятность интрепретируется как уверенность модели 
 в необходиомости поставить ATM. Для определения типа АТМ банкомата проводилась отдельная логистическая регрессия. Результаты были визуализированы на карте с помощью средств Python.
 
-![image](https://drive.google.com/uc?export=view&id=1YsEhCq7HEwD4M29dlN_mkmy-qHTvadE8)
 
-![alt text](https://drive.google.com/file/d/1YsEhCq7HEwD4M29dlN_mkmy-qHTvadE8/view?usp=sharing)
+<a href="https://drive.google.com/uc?export=view&id=1YsEhCq7HEwD4M29dlN_mkmy-qHTvadE8"><img src="https://drive.google.com/uc?export=view&id=1YsEhCq7HEwD4M29dlN_mkmy-qHTvadE8" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
